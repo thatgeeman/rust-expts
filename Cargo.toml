@@ -3,6 +3,14 @@ name = "rust-expts"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "guess"
+path = "src/guess.rs"
+
+[[bin]]
+name = "guess_cmp"
+path = "src/guess_cmp.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
